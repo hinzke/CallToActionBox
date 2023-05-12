@@ -1,0 +1,33 @@
+# system/modules/calltoactionbox/src/Resources/contao/config/config.yml
+contao:
+  content:
+    elements:
+      calltoactionbox:
+        class: CallToActionBox\Element\CallToActionBoxElement
+        icon: system/modules/calltoactionbox/assets/images/icon.png
+        fields:
+          headline:
+            label: Headline
+            inputType: text
+            eval: mandatory
+          text:
+            label: Text
+            inputType: text
+            eval: mandatory
+          linkTitle:
+            label: Link title
+            inputType: text
+            eval: mandatory
+          linkHref:
+            label: Link URL
+            inputType: text
+            eval: mandatory
+          linkTarget:
+            label: Link target
+            inputType: select
+            options:
+              _blank: New window
+              _self: Same window
+              _parent: Parent window
+              _top: Topmost window
+            eval: mandatory

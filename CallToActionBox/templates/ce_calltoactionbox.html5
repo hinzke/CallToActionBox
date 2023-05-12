@@ -1,0 +1,6 @@
+<!-- system/modules/calltoactionbox/templates/ce_calltoactionbox.html5 -->
+<div class="ce_calltoactionbox">
+    <h2>{{headline}}</h2>
+    <p>{{text}}</p>
+    <a href="{{linkHref}}" title="{{linkTitle}}" target="{{linkTarget}}">{{linkTitle}}</a>
+</div>
