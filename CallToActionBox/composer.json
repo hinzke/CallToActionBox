@@ -2,8 +2,8 @@
     "name": "hinzke/calltoactionbox",
     "type": "contao-module",
     "description": "Eine Contao-Erweiterung, die ein neues Inhaltselement hinzufügt",
-    "version": "1.0.0",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "hinzke",
@@ -11,8 +11,8 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.1",
-        "contao/core": "^4.9 || ^4.13"
+        "php": "^8.1",
+        "contao/core": "^4.4 || ^4.9 || ^4.13"
     },
     "autoload": {
         "psr-4": {
